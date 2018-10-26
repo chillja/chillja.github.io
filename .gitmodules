@@ -1,0 +1,3 @@
+[submodule "contrib/hyde"]
+	path = contrib/hyde
+	url = https://github.com/poole/hyde
