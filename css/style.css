@@ -1,0 +1,25 @@
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+/*.sidebar-about h1 {
+  font-family: "PT Sans", Helvetica, sans-sserif;
+}*/
+
+/* personal theme color for hyde */
+.theme-base-07 .sidebar {
+  background-color: #1C877E;
+}
+.theme-base-07 .content a,
+.theme-base-07 .related-posts li a:hover {
+  color: #1C877E;
+}
+
+.nobr {
+    white-space: nowrap;
+}
