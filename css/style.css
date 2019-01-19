@@ -13,13 +13,25 @@ a:focus {
 
 /* personal theme color for hyde */
 .theme-base-07 .sidebar {
-  background-color: #1C877E;
+    background-color: #1C877E;
 }
 .theme-base-07 .content a,
 .theme-base-07 .related-posts li a:hover {
-  color: #1C877E;
+    color: #1C877E;
+}
+.theme-base-07 .footer a {
+    color: #1C877E;
 }
 
 .nobr {
     white-space: nowrap;
+}
+
+.footer {
+    padding-bottom: 0rem;
+    bottom:0;
+}
+
+.footer-centered {
+    text-align: center;
 }
