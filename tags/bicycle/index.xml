@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>chillja</title>
-    <link>https://chillja.github.io/</link>
-    <description>Recent content on chillja</description>
+    <title>bicycle on chillja</title>
+    <link>https://chillja.github.io/tags/bicycle/</link>
+    <description>Recent content in bicycle on chillja</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <lastBuildDate>Sun, 19 Apr 2020 17:40:30 +0200</lastBuildDate>
     
-	<atom:link href="https://chillja.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chillja.github.io/tags/bicycle/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,17 +19,6 @@
       <guid>https://chillja.github.io/blog/project-armadillo-1/</guid>
       <description>This is the first in a series of posts, where I intend to document my small restoration project: Project Armadillo.
 Project Armadillo is a 70s Peugeot road bicycle which was handed to me by a friend in trust, who again had it from a friend who realised they didn&amp;rsquo;t have the time to enjoy it anymore. So it came into my hands after some years (I guess) of rest and therefore - and due to its age - needs some work.</description>
-    </item>
-    
-    <item>
-      <title>My personal website</title>
-      <link>https://chillja.github.io/pages/about/</link>
-      <pubDate>Sat, 28 Mar 2020 16:44:57 +0100</pubDate>
-      
-      <guid>https://chillja.github.io/pages/about/</guid>
-      <description>this website .. is still under construction. It shall remain static.
-summary Interested in everything that makes digital things better, safer and less cumbersome. From instruction sets and operating systems to programming languages and development processes, from writing a single good line of code to solving NP-hard problems.
-disclaimer This is my private website. Opinions expressed are my own and do not represent my employer. You can find my professional web representation here:</description>
     </item>
     
   </channel>
