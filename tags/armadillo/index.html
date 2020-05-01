@@ -9,19 +9,58 @@
     <meta name="description" content="" />
     <link rel="stylesheet" href="https://chillja.github.io/css/main.min.61bb32028587f24ca28522d8d197970c7ef33284e5fffb45a75fcbbb2dbc4dcb.css" />
 
+    <style>
+    div.prettyimg {
+      margin: 5px;
+      padding: 5px;
+      border: 1px solid #ccc;
+    }
+
+    div.prettyimg_float {
+      float: right;
+      width: 50%;
+    }
+
+    div.prettyimg:hover {
+      border: 1px solid #777;
+    }
     
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="armadillo"/>
-<meta name="twitter:description" content="This is my personal website. An introduction can be found in the About section."/>
+    div.prettyimg img {
+      width: 100%;
+      height: auto;
+    }
+    
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
 
-    <meta property="og:title" content="armadillo" />
-<meta property="og:description" content="This is my personal website. An introduction can be found in the About section." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://chillja.github.io/tags/armadillo/" />
+    div.gallery_frame {
+      width: auto;
+      display: block;
+      border: 1px solid #777;
+    }
 
-<meta property="og:updated_time" content="2020-04-19T17:40:30+02:00" />
+    div.gallery_desc {
+      padding: 15px;
+      text-align: right;
+      float: right;
+      font-weight: bold;
+      color: white;
+    }
 
+    .gallery_frame:after {
+        content: " ";
+        display: block;
+        clear: both;
+    }
 
+    .gallery_frame > * {
+      float: left;
+      width: 180px;
+    }
+    </style>
+    
   </head>
   <body>
     <header class="app-header">
@@ -52,6 +91,17 @@
   <article>
     <h1>armadillo</h1>
     <ul class="posts-list">
+      
+        <li class="posts-list-item">
+          <a class="posts-list-item-title" href="https://chillja.github.io/blog/project-armadillo-2/">Project Armadillo #2 - Researching Year and Model</a>
+          <span class="posts-list-item-description">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg> 4 min read -
+            Apr 29, 2020
+          </span>
+        </li>
       
         <li class="posts-list-item">
           <a class="posts-list-item-title" href="https://chillja.github.io/blog/project-armadillo-1/">Project Armadillo #1 - Introduction</a>

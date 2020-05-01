@@ -9,23 +9,58 @@
     <meta name="description" content="" />
     <link rel="stylesheet" href="https://chillja.github.io/css/main.min.61bb32028587f24ca28522d8d197970c7ef33284e5fffb45a75fcbbb2dbc4dcb.css" />
 
+    <style>
+    div.prettyimg {
+      margin: 5px;
+      padding: 5px;
+      border: 1px solid #ccc;
+    }
+
+    div.prettyimg_float {
+      float: right;
+      width: 50%;
+    }
+
+    div.prettyimg:hover {
+      border: 1px solid #777;
+    }
     
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="My personal website"/>
-<meta name="twitter:description" content="this website .. is still under construction. It shall remain static.
-summary Interested in everything that makes digital things better, safer and less cumbersome. From instruction sets and operating systems to programming languages and development processes, from writing a single good line of code to solving NP-hard problems.
-disclaimer This is my private website. Opinions expressed are my own and do not represent my employer. You can find my professional web representation here:"/>
+    div.prettyimg img {
+      width: 100%;
+      height: auto;
+    }
+    
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
 
-    <meta property="og:title" content="My personal website" />
-<meta property="og:description" content="this website .. is still under construction. It shall remain static.
-summary Interested in everything that makes digital things better, safer and less cumbersome. From instruction sets and operating systems to programming languages and development processes, from writing a single good line of code to solving NP-hard problems.
-disclaimer This is my private website. Opinions expressed are my own and do not represent my employer. You can find my professional web representation here:" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://chillja.github.io/pages/about/" />
-<meta property="article:published_time" content="2020-03-28T16:44:57+01:00" />
-<meta property="article:modified_time" content="2020-03-28T16:44:57+01:00" />
+    div.gallery_frame {
+      width: auto;
+      display: block;
+      border: 1px solid #777;
+    }
 
+    div.gallery_desc {
+      padding: 15px;
+      text-align: right;
+      float: right;
+      font-weight: bold;
+      color: white;
+    }
 
+    .gallery_frame:after {
+        content: " ";
+        display: block;
+        clear: both;
+    }
+
+    .gallery_frame > * {
+      float: left;
+      width: 180px;
+    }
+    </style>
+    
   </head>
   <body>
     <header class="app-header">

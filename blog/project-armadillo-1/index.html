@@ -9,21 +9,58 @@
     <meta name="description" content="" />
     <link rel="stylesheet" href="https://chillja.github.io/css/main.min.61bb32028587f24ca28522d8d197970c7ef33284e5fffb45a75fcbbb2dbc4dcb.css" />
 
+    <style>
+    div.prettyimg {
+      margin: 5px;
+      padding: 5px;
+      border: 1px solid #ccc;
+    }
+
+    div.prettyimg_float {
+      float: right;
+      width: 50%;
+    }
+
+    div.prettyimg:hover {
+      border: 1px solid #777;
+    }
     
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Project Armadillo #1 - Introduction"/>
-<meta name="twitter:description" content="This is the first in a series of posts, where I intend to document my small restoration project: Project Armadillo.
-Project Armadillo is a 70s Peugeot road bicycle which was handed to me by a friend in trust, who again had it from a friend who realised they didn&rsquo;t have the time to enjoy it anymore. So it came into my hands after some years (I guess) of rest and therefore - and due to its age - needs some work."/>
+    div.prettyimg img {
+      width: 100%;
+      height: auto;
+    }
+    
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
 
-    <meta property="og:title" content="Project Armadillo #1 - Introduction" />
-<meta property="og:description" content="This is the first in a series of posts, where I intend to document my small restoration project: Project Armadillo.
-Project Armadillo is a 70s Peugeot road bicycle which was handed to me by a friend in trust, who again had it from a friend who realised they didn&rsquo;t have the time to enjoy it anymore. So it came into my hands after some years (I guess) of rest and therefore - and due to its age - needs some work." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://chillja.github.io/blog/project-armadillo-1/" />
-<meta property="article:published_time" content="2020-04-19T17:40:30+02:00" />
-<meta property="article:modified_time" content="2020-04-19T17:40:30+02:00" />
+    div.gallery_frame {
+      width: auto;
+      display: block;
+      border: 1px solid #777;
+    }
 
+    div.gallery_desc {
+      padding: 15px;
+      text-align: right;
+      float: right;
+      font-weight: bold;
+      color: white;
+    }
 
+    .gallery_frame:after {
+        content: " ";
+        display: block;
+        clear: both;
+    }
+
+    .gallery_frame > * {
+      float: left;
+      width: 180px;
+    }
+    </style>
+    
   </head>
   <body>
     <header class="app-header">
