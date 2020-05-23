@@ -6,10 +6,32 @@
     <description>Recent content in Pages on chillja</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sat, 28 Mar 2020 16:44:57 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2020 17:22:40 +0200</lastBuildDate>
     
 	<atom:link href="https://chillja.github.io/pages/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Imprint</title>
+      <link>https://chillja.github.io/pages/imprint/</link>
+      <pubDate>Sat, 23 May 2020 17:22:40 +0200</pubDate>
+      
+      <guid>https://chillja.github.io/pages/imprint/</guid>
+      <description>Imprint Verantwortlich im Sinne des § 5 TMG:
+Ilja Becker
+Stadtpromenade 12
+03046 Cottbus
+E-Mail: blog [ät] iljabecker.eu</description>
+    </item>
+    
+    <item>
+      <title>Privacy</title>
+      <link>https://chillja.github.io/pages/privacy/</link>
+      <pubDate>Sat, 23 May 2020 13:45:29 +0200</pubDate>
+      
+      <guid>https://chillja.github.io/pages/privacy/</guid>
+      <description>Privacy Policy TLDR: Website is hosted by Github, be aware of their privacy policy. If you don&amp;rsquo;t send me an e-mail, I won&amp;rsquo;t get or store data of you. Links can go elsewhere, be aware before clicking. Personal data (usually referred to just as &#34;data&#34; below) will only be processed by us to the extent necessary and for the purpose of providing a functional and user-friendly website, including its contents, and the services offered there.</description>
+    </item>
     
     <item>
       <title>My personal website</title>
